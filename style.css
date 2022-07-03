@@ -1,0 +1,40 @@
+/*
+Page-Name:Eligella
+Author/Designer: Kwame Diwani
+Copyright@2022 Spitch
+*/
+
+:root {
+	--text-color: rgb(56, 56, 56);
+	--color-green: rgb(74 185 77);
+	--bg-color: rgb(255 255 255);
+}
+
+*,
+*::before,
+*::after {
+	font-family: "Exo 2";
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.hero-image-mobile {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	body {
+		background-color: var(--bg-color);
+	}
+	.main-image-desktop {
+		display: none;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+}
