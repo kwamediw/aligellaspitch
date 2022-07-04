@@ -76,10 +76,6 @@ button:hover {
 	color: rgb(130, 128, 128);
 }
 
-.hero-divider {
-	padding-top: -100px;
-}
-
 .main {
 	background-color: var(--color-green);
 	color: var(--bg-color);
@@ -144,6 +140,9 @@ button:hover {
 		display: flex;
 		padding-right: 65px;
 	}
+	.hero-call {
+		padding-top: 60px;
+	}
 	.image {
 		order: 1;
 	}
@@ -159,6 +158,8 @@ button:hover {
 		display: block;
 		flex-direction: column;
 		padding-top: -90px;
+		font-size: 10px;
+		height: 1rem;
 	}
 	.submit-btn {
 		margin-top: 0.5rem;
