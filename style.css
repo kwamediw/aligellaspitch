@@ -82,6 +82,10 @@ button:hover {
 .hero-details {
 }
 
+.hero-divider {
+	padding-top: -100px;
+}
+
 .main {
 	background-color: var(--color-green);
 	color: var(--bg-color);
@@ -113,10 +117,11 @@ button:hover {
 		padding-top: 1rem;
 	}
 	.heading {
-		width: 300px;
+		width: 250px;
 		text-align: center;
 		justify-content: center;
 		justify-content: center;
+		margin-left: 55px;
 	}
 	.hero {
 		padding-top: 1rem;
@@ -130,12 +135,20 @@ button:hover {
 	}
 	.hero-details {
 		order: 2;
+		display: none;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
 		align-items: center;
-		padding: 0 1rem 1rem 1rem;
+		padding: 0 2rem 1rem 0rem;
+	}
+	.hero-register {
+		margin-top: -150px;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding-right: 65px;
 	}
 	.image {
 		order: 1;
@@ -151,6 +164,7 @@ button:hover {
 		content: "|";
 		display: block;
 		flex-direction: column;
+		padding-top: -90px;
 	}
 	.submit-btn {
 		margin-top: 0.5rem;
@@ -170,10 +184,14 @@ button:hover {
 		display: none;
 	}
 
-	.hero-image-mobile {
+	.image {
+		margin-top: -150px;
 	}
 	.hero-geschenke {
 		font-size: 1rem;
+	}
+	.hero-question {
+		padding-top: 1rem;
 	}
 
 	.container {
@@ -185,6 +203,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 		padding-bottom: 1rem;
+		flex-direction: column;
 	}
 	.hero-wrapper {
 		display: flex;
@@ -192,11 +211,8 @@ button:hover {
 	}
 	main {
 		width: 100%;
-
-		position: absolute;
 		left: 0px;
 		top: 0px;
-		z-index: 1;
 	}
 
 	.main-container {
@@ -322,8 +338,41 @@ button:hover {
 		font-family: "Exo 2";
 	}
 
+	.main-image-mobile {
+		display: none;
+	}
+
 	/* MAIN Section*/
 	.main {
+		padding: 150px 0 40px 250px;
+		height: 500px;
+		z-index: -1;
+		/*clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)*/
+		position: relative;
+	}
+	.main-details {
+		padding-top: 1rem;
+		padding-bottom: 1.8rem;
+		width: 400px;
+	}
+	.main-content {
+		padding-left: 1.5rem;
+	}
+	.main-container {
+		display: flex;
+		justify-content: space-between;
+		z-index: 2;
+		position: relative;
+	}
+	.main-list li {
+		padding-top: 2rem;
+		width: 400px;
+	}
+	.main-image-desktop {
+		margin-top: -450px;
+		transform: scale(1);
+		z-index: 2;
+		position: relative;
 	}
 
 	/*FOOTER Section*/
