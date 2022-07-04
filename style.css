@@ -369,6 +369,10 @@ button:hover {
 		z-index: 2;
 		position: relative;
 	}
+	.instagram {
+		font-weight: bold;
+		color: var(--color-green);
+	}
 
 	/*FOOTER Section*/
 	.footer {
